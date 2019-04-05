@@ -33,7 +33,7 @@ uint8_t _key(uint8_t value, uint8_t pace)
 		_delay_ms(100);
 		if (!(Pinkeys & _BV(down)))
 		{
-			temp-=pace;
+			temp-=pace; //test for git
 		}
 	}
 	return temp;
